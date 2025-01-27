@@ -126,18 +126,19 @@ One_XRO_In_ETH_STR = csv_column(data, 34, 'STRING', dataIter)
 Min_Gen_From_ETH = csv_column(data, 35, 'FLOAT', dataIter)
 Max_Gen_From_ETH = csv_column(data, 36, 'FLOAT', dataIter)
 
-One_XRO_In_BTC = csv_column(data, 39, 'FLOAT', dataIter)
-One_XRO_In_BTC_STR = csv_column(data, 39, 'STRING', dataIter)
+One_XRO_In_BTC = csv_column(data, 38, 'FLOAT', dataIter)
+One_XRO_In_BTC_STR = csv_column(data, 38, 'STRING', dataIter)
 
-Min_Gen_From_BTC = csv_column(data, 38, 'FLOAT', dataIter)
-Max_Gen_From_BTC = csv_column(data, 39, 'FLOAT', dataIter)
+Min_Gen_From_BTC = csv_column(data, 40, 'FLOAT', dataIter)
+Max_Gen_From_BTC = csv_column(data, 41, 'FLOAT', dataIter)
 
 X_Offset = 1
 #Switch out for different tokens
-ActiveDataSet = One_XRO_In_ICP
-ActiveDataSet_STR = One_XRO_In_ICP_STR
-ActiveDataSet_MIN = Min_Gen_From_ICP
-ActiveDataSet_MAX = Max_Gen_From_ICP
+ActiveDataSet = One_XRO_In_BTC
+#ActiveDataSet_STR = One_XRO_In_BTC_STR
+ActiveDataSet_MIN = Min_Gen_From_BTC
+ActiveDataSet_MAX = Max_Gen_From_BTC
+
 
 
 '''
@@ -168,9 +169,6 @@ and then add csv data to those
 att = add_attr(obj.data.name, 'generators', 'INT')
 #Generate point data for custom attributes
 att.data.foreach_set('value', Generators)
-
-print(Generators)
-print('Generators!!!')
 
 #Create the custom attribute on the mesh verts
 attr = add_attr(obj.data.name, 'exchange_rate_vec', 'FLOAT_VECTOR')
