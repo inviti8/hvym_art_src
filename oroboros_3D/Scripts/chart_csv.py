@@ -123,8 +123,8 @@ Max_Gen_From_ICP = csv_column(data, 33, 'FLOAT', dataIter)
 One_XRO_In_ETH = csv_column(data, 34, 'FLOAT', dataIter)
 One_XRO_In_ETH_STR = csv_column(data, 34, 'STRING', dataIter)
 
-Min_Gen_From_ETH = csv_column(data, 35, 'FLOAT', dataIter)
-Max_Gen_From_ETH = csv_column(data, 36, 'FLOAT', dataIter)
+Min_Gen_From_ETH = csv_column(data, 36, 'FLOAT', dataIter)
+Max_Gen_From_ETH = csv_column(data, 37, 'FLOAT', dataIter)
 
 One_XRO_In_BTC = csv_column(data, 38, 'FLOAT', dataIter)
 One_XRO_In_BTC_STR = csv_column(data, 38, 'STRING', dataIter)
@@ -135,7 +135,7 @@ Max_Gen_From_BTC = csv_column(data, 41, 'FLOAT', dataIter)
 X_Offset = 1
 #Switch out for different tokens
 ActiveDataSet = One_XRO_In_BTC
-#ActiveDataSet_STR = One_XRO_In_BTC_STR
+ActiveDataSet_STR = One_XRO_In_BTC_STR
 ActiveDataSet_MIN = Min_Gen_From_BTC
 ActiveDataSet_MAX = Max_Gen_From_BTC
 
@@ -151,7 +151,40 @@ g_node = obj.modifiers.new('make_verts', 'NODES')
 #assign new geometry node, to one created in the scene with the name: 'make_verts'
 g_node.node_group = bpy.data.node_groups['make_verts']
 
+'''
+PRICE DATA
+________________________________________________________
+'''
+##Set number of verts based on data length
+#g_node["Socket_2"] = len(ActiveDataSet)
 
+##force update mesh to show in viewport
+#mesh_update()
+
+##apply the modifier and collapse the stack
+#bpy.ops.object.modifier_apply(modifier=g_node.name)
+##Create custom attribut to hold generator samples
+#att = add_attr(obj.data.name, 'generators', 'INT')
+##Generate point data for custom attributes
+#att.data.foreach_set('value', Generators)
+
+##Create the custom attribute on the mesh verts
+#attr = add_attr(obj.data.name, 'exchange_rate_vec', 'FLOAT_VECTOR')
+#x = create_axis_offset_array(X_Offset, ActiveDataSet)
+#y = ActiveDataSet
+#z = create_zero_array(ActiveDataSet)
+
+#vectors = create_point_vectors(x, y, z, x)
+
+##Generate point data for custom attributes
+#attr.data.foreach_set('vector', vectors)
+'''
+________________________________________________________
+
+
+MIN & MAX DATA
+________________________________________________________
+'''
 #Set number of verts based on data length
 g_node["Socket_2"] = len(ActiveDataSet)
 
@@ -160,23 +193,26 @@ mesh_update()
 
 #apply the modifier and collapse the stack
 bpy.ops.object.modifier_apply(modifier=g_node.name)
-
-'''
-Next we want to add custom attributes to the mesh points
-and then add csv data to those
-'''
 #Create custom attribut to hold generator samples
 att = add_attr(obj.data.name, 'generators', 'INT')
 #Generate point data for custom attributes
 att.data.foreach_set('value', Generators)
 
-#Create the custom attribute on the mesh verts
-attr = add_attr(obj.data.name, 'exchange_rate_vec', 'FLOAT_VECTOR')
+ActiveDataSet = Min_Gen_From_BTC
+attr = add_attr(obj.data.name, 'supply_min_vec', 'FLOAT_VECTOR')
 x = create_axis_offset_array(X_Offset, ActiveDataSet)
 y = ActiveDataSet
 z = create_zero_array(ActiveDataSet)
 
 vectors = create_point_vectors(x, y, z, x)
-
-#Generate point data for custom attributes
 attr.data.foreach_set('vector', vectors)
+
+ActiveDataSet = Max_Gen_From_BTC
+attr = add_attr(obj.data.name, 'supply_max_vec', 'FLOAT_VECTOR')
+x = create_axis_offset_array(X_Offset, ActiveDataSet)
+y = ActiveDataSet
+z = create_zero_array(ActiveDataSet)
+
+vectors = create_point_vectors(x, y, z, x)
+attr.data.foreach_set('vector', vectors)
+
