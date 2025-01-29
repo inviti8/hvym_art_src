@@ -1,12 +1,10 @@
 import bpy
 import os
 import csv
-from collections import deque
 
 HOME = os.path.expanduser("~").replace('\\', '/') if os.name == 'nt' else os.path.expanduser("~")
 
 MINTING = 'minting_tokenomics'
-EPHEMERAL = 'ephemeral_tokenomics'
 
 CSV = MINTING+'.csv'
 CSV_PATH = os.path.join(HOME, 'Documents', 'oroboros_3D', CSV)
