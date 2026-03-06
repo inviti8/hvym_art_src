@@ -1,0 +1,1 @@
+*.glb,[[:space:]]*.svg,[[:space:]]*.psd,[[:space:]]*.blend,[[:space:]]*.mp4,[[:space:]]*.xcf filter=lfs diff=lfs merge=lfs -text
