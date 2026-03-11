@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="pinwheel_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.38885732"
+     inkscape:cx="398.60378"
+     inkscape:cy="340.74194"
+     inkscape:window-width="3440"
+     inkscape:window-height="1279"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6410">
+      <stop
+         style="stop-color:#b35c5c;stop-opacity:1"
+         offset="0"
+         id="stop6406" />
+      <stop
+         style="stop-color:#7f2b2b;stop-opacity:1"
+         offset="1"
+         id="stop6408" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6410"
+       id="linearGradient6412"
+       x1="57.412663"
+       y1="39.718582"
+       x2="105.55141"
+       y2="77.060356"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6410"
+       id="linearGradient9817"
+       gradientUnits="userSpaceOnUse"
+       x1="57.412663"
+       y1="39.718582"
+       x2="105.55141"
+       y2="77.060356" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6410"
+       id="linearGradient9825"
+       gradientUnits="userSpaceOnUse"
+       x1="57.412663"
+       y1="39.718582"
+       x2="105.55141"
+       y2="77.060356" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6410"
+       id="linearGradient9833"
+       gradientUnits="userSpaceOnUse"
+       x1="57.412663"
+       y1="39.718582"
+       x2="105.55141"
+       y2="77.060356"
+       gradientTransform="rotate(94.601614,78.106966,129.13608)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="display:inline;fill:url(#linearGradient9833);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 155.31457,107.79203 c 0,0 11.96338,40.5377 10.46846,44.49056 -6.4795,17.13314 -44.52985,26.92225 -44.52985,26.92225 0,0 -1.82416,1.48767 -3.7933,0.74956 -1.96914,-0.73811 -15.0231,-34.02161 -15.0231,-34.02161 0,0 -0.8202,-0.40825 -0.34,-1.29428 1.18705,-2.19023 3.05298,-4.87505 3.05298,-4.87505 0,0 17.3907,9.15461 32.73745,0.67763 8.84971,-4.88826 18.45888,-10.81614 17.42736,-32.64906 z"
+       id="path9827"
+       sodipodi:nodetypes="cscscscsc"
+       inkscape:export-filename="/media/desktop/_dsk/dev/hvym_art_src/2D/pinwheel_logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="use6043"
+       transform="rotate(3.1041709,-635.12372,384.35709)"
+       inkscape:transform-center-x="45.135221"
+       inkscape:transform-center-y="4.8808828"
+       inkscape:export-filename="/media/desktop/_dsk/dev/hvym_art_src/2D/pinwheel_logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="display:inline;fill:url(#linearGradient9817);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 50.637586,53.889721 c 0,0 39.447242,-15.177036 43.507291,-14.004067 17.597743,5.084077 30.407963,42.226423 30.407963,42.226423 0,0 1.62923,1.698931 1.05147,3.720941 -0.57775,2.022009 -32.706688,17.704132 -32.706688,17.704132 0,0 -0.341128,0.85031 -1.262837,0.44273 -2.278394,-1.00751 -5.104265,-2.65203 -5.104265,-2.65203 0,0 7.729905,-18.069083 -1.950974,-32.686275 C 78.997053,60.21255 72.31737,51.109941 50.637586,53.889721 Z"
+         id="path9811"
+         sodipodi:nodetypes="cscscscsc" />
+      <path
+         style="fill:#af5656;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 51.452625,53.666731 c 0,0 32.802937,-14.087598 42.692252,-13.781077 15.367923,0.476331 43.695573,9.67426 40.823063,35.109136 -6.85632,29.08695 -41.923542,29.57786 -41.923542,29.57786 0,0 -5.712392,0.93599 -5.941325,-0.0455 -0.321593,-1.3787 -0.572553,-3.19933 -0.572553,-3.19933 0,0 22.96299,-3.760546 27.82772,-25.757653 C 116.12828,57.017145 104.1659,44.071934 94.576251,42.730521 83.26188,41.147851 51.452625,53.666731 51.452625,53.666731 Z"
+         id="path9813"
+         sodipodi:nodetypes="csccsccsc" />
+    </g>
+    <g
+       id="g5739"
+       transform="rotate(-87.502338,117.10121,115.18246)"
+       inkscape:transform-center-x="37.228559"
+       inkscape:transform-center-y="5.9419073"
+       inkscape:export-filename="/media/desktop/_dsk/dev/hvym_art_src/2D/pinwheel_logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="display:inline;fill:url(#linearGradient6412);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 50.637586,53.889721 c 0,0 39.447242,-15.177036 43.507291,-14.004067 17.597743,5.084077 30.407963,42.226423 30.407963,42.226423 0,0 1.62923,1.698931 1.05147,3.720941 -0.57775,2.022009 -32.706688,17.704132 -32.706688,17.704132 0,0 -0.341128,0.85031 -1.262837,0.44273 -2.278394,-1.00751 -5.104265,-2.65203 -5.104265,-2.65203 0,0 7.729905,-18.069083 -1.950974,-32.686275 C 78.997053,60.21255 72.31737,51.109941 50.637586,53.889721 Z"
+         id="path4868"
+         sodipodi:nodetypes="cscscscsc" />
+      <path
+         style="fill:#af5656;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 51.452625,53.666731 c 0,0 32.802937,-14.087598 42.692252,-13.781077 15.367923,0.476331 43.695573,9.67426 40.823063,35.109136 -6.85632,29.08695 -41.923542,29.57786 -41.923542,29.57786 0,0 -5.712392,0.93599 -5.941325,-0.0455 -0.321593,-1.3787 -0.572553,-3.19933 -0.572553,-3.19933 0,0 22.96299,-3.760546 27.82772,-25.757653 C 116.12828,57.017145 104.1659,44.071934 94.576251,42.730521 83.26188,41.147851 51.452625,53.666731 51.452625,53.666731 Z"
+         id="path857"
+         sodipodi:nodetypes="csccsccsc" />
+    </g>
+    <g
+       id="use6039"
+       transform="rotate(-176.71927,96.964377,122.38818)"
+       inkscape:transform-center-x="36.040742"
+       inkscape:transform-center-y="-2.1682165"
+       inkscape:export-filename="/media/desktop/_dsk/dev/hvym_art_src/2D/pinwheel_logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="display:inline;fill:url(#linearGradient9825);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 50.637586,53.889721 c 0,0 39.447242,-15.177036 43.507291,-14.004067 17.597743,5.084077 30.407963,42.226423 30.407963,42.226423 0,0 1.62923,1.698931 1.05147,3.720941 -0.57775,2.022009 -32.706688,17.704132 -32.706688,17.704132 0,0 -0.341128,0.85031 -1.262837,0.44273 -2.278394,-1.00751 -5.104265,-2.65203 -5.104265,-2.65203 0,0 7.729905,-18.069083 -1.950974,-32.686275 C 78.997053,60.21255 72.31737,51.109941 50.637586,53.889721 Z"
+         id="path9819"
+         sodipodi:nodetypes="cscscscsc" />
+      <path
+         style="fill:#af5656;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 51.452625,53.666731 c 0,0 32.802937,-14.087598 42.692252,-13.781077 15.367923,0.476331 43.695573,9.67426 40.823063,35.109136 -6.85632,29.08695 -41.923542,29.57786 -41.923542,29.57786 0,0 -5.712392,0.93599 -5.941325,-0.0455 -0.321593,-1.3787 -0.572553,-3.19933 -0.572553,-3.19933 0,0 22.96299,-3.760546 27.82772,-25.757653 C 116.12828,57.017145 104.1659,44.071934 94.576251,42.730521 83.26188,41.147851 51.452625,53.666731 51.452625,53.666731 Z"
+         id="path9821"
+         sodipodi:nodetypes="csccsccsc" />
+    </g>
+    <path
+       style="fill:#af5656;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 155.47145,108.62234 c 0,0 11.41051,33.8274 10.31158,43.66025 -1.70772,15.28017 -13.14864,42.77859 -38.27108,37.87477 -28.443121,-9.16778 -26.11912,-44.16134 -26.11912,-44.16134 0,0 -0.47468,-5.76908 0.52202,-5.91853 1.40006,-0.20994 3.23495,-0.31403 3.23495,-0.31403 0,0 1.90617,23.19067 23.44209,29.80447 18.35121,3.25279 32.21441,-7.63247 34.32083,-17.08359 2.48529,-11.15093 -7.44127,-43.862 -7.44127,-43.862 z"
+       id="path9829"
+       sodipodi:nodetypes="csccsccsc"
+       inkscape:export-filename="/media/desktop/_dsk/dev/hvym_art_src/2D/pinwheel_logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
